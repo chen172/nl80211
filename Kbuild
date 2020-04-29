@@ -4,4 +4,8 @@ cfg80211-y += mlme.o ibss.o sme.o chan.o ethtool.o mesh.o ap.o trace.o ocb.o
 cfg80211-y += debugfs.o
 cfg80211-y += wext-compat.o wext-sme.o
 
+#for kernel 4.19
+cfg80211-y += reg.o
+cfg80211-y += shipped-certs.o
+
 
