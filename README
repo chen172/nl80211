@@ -7,3 +7,5 @@
 然后执行下面的命令
 make -C /lib/modules/'uname -r'/build/ M=$PWD
 
+TO DO
+分析nl80211_send_wiphy函数
