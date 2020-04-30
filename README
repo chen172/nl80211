@@ -1,3 +1,5 @@
+for kernel 4.19
+
 编译cfg80211模块
 
 进入内核的源码目录net/wireless
