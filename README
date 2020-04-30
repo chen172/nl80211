@@ -1,6 +1,6 @@
 两种编译配置方式
 1.用内核源码的配置
-make -C /home/chenliang/桌面/4-9/linux-4.13.9 M=~/hack_hwsim/wireless
+make -C 下载的内核源码路径 M=~/hack_hwsim/wireless
 2.用ubuntu14.04系统的配置
 make -C /lib/modules/4.4.0-31-generic/build/ M=~/hack_hwsim/wireless
 sudo cp cfg80211.ko /lib/modules/4.4.0-31-generic/kernel/net/wireless/
