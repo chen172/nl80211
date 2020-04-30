@@ -1,3 +1,5 @@
+for kernel 4.4
+
 两种编译配置方式
 1.用内核源码的配置
 make -C 下载的内核源码路径 M=~/hack_hwsim/wireless
