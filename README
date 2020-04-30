@@ -1,5 +1,8 @@
 for kernel 4.19
 
+Goal:
+analyse when kernel receive generical netlink message, how kernel processing it.
+
 file description:
 nl80211.c: interface for wireless generic netlink programming, in /net/wireless dir, is cfg80211 module 
 nl80211.h: the data structure for nl80211.c, in /net/wireless dir, is cfg80211 module 
@@ -7,6 +10,11 @@ genetlink.h: genl data structure, in your system /usr/src/linux-head-xxx/include
 genetlink.c: genl operation, the interface for nl80211.c, in linux-source/net/netlink dir, is netlink_diag module
 netlink.h: netlink operation, in your system /usr/src/linux-head-xxx/include/net dir
 nlattr.c: netlink attribute operation, in linux-source/lib dir
+
+Ongoing:
+1.kernel received message put into genl_info, how kernel put it?
+2.use nl80211.c's function process it, for example, nl80211_get_wiphy
+3.and then put the processed message into struct sk_buf 
 
 
 编译cfg80211模块
@@ -19,4 +27,4 @@ nlattr.c: netlink attribute operation, in linux-source/lib dir
 make -C /lib/modules/'uname -r'/build/ M=$PWD
 
 TO DO
-分析nl80211_send_wiphy函数
+how the kernel get struct genl_info
