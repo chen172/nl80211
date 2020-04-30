@@ -3,6 +3,9 @@ for kernel 4.19
 file description:
 nl80211.c: interface for wireless generic netlink programming, in /net/wireless dir, is cfg80211 module 
 nl80211.h: the data structure for nl80211.c, in /net/wireless dir, is cfg80211 module 
+genetlink.h: genl data structure, in your system /usr/src/linux-head-xxx/include/net dir
+genetlink.c: genl operation, the interface for nl80211.c, in linux-source/net/netlink dir, is netlink_diag module
+
 
 编译cfg80211模块
 
