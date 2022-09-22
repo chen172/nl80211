@@ -28,3 +28,7 @@ make -C /lib/modules/'uname -r'/build/ M=$PWD
 
 TO DO
 how the kernel get struct genl_info
+
+Info:
+
+<img src="picture/Wifi-Sub-Sys.png"></img>
