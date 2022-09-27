@@ -28,9 +28,6 @@ analyse when kernel receive generical netlink message, how kernel processing it.
 
 ```make -C /lib/modules/$(uname -r)/build/ M=$PWD```
 
-TO DO
-how the kernel get struct genl_info
-
 # Info:
 <img src="picture/Wifi-Sub-Sys.png"></img>
 
@@ -41,3 +38,6 @@ how the kernel get struct genl_info
 
 # Ubuntu linux header
 /usr/src
+
+# TO DO
+how the kernel get struct genl_info
