@@ -37,7 +37,7 @@ how the kernel get struct genl_info
 # Data structure
 | File | Data structure |
 | :---- | :---- |
-| net/mac802.11.h | ieee80211_tx_info |
+| include/net/mac802.11.h | ieee80211_tx_info |
 
 # Ubuntu linux header
 /usr/src
