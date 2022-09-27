@@ -28,6 +28,9 @@ analyse when kernel receive generical netlink message, how kernel processing it.
 
 ```make -C /lib/modules/$(uname -r)/build/ M=$PWD```
 
+# TO DO
+how the kernel get struct genl_info
+
 # Info:
 <img src="picture/Wifi-Sub-Sys.png"></img>
 
@@ -39,5 +42,10 @@ analyse when kernel receive generical netlink message, how kernel processing it.
 # Ubuntu linux header
 /usr/src
 
-# TO DO
-how the kernel get struct genl_info
+# Download your Ubuntu kernel 
+## 1. get your ubuntu kernel release
+uname -r
+## 2. find the kernel source
+https://kernel.ubuntu.com/git/ubuntu/ubuntu-focal.git/refs/tags
+## 3. download specific directory
+https://github.com/chen172/ruby_script/tree/main/download_cgit_directory
