@@ -20,11 +20,14 @@ Ongoing:
 编译cfg80211模块
 
 进入内核的源码目录net/wireless
+
 1.修改trace.h文件中的最后的路径为当前目录的路径
+
 2.把Makefile删掉
-添加这个Kbuild文件
-然后执行下面的命令
-make -C /lib/modules/'uname -r'/build/ M=$PWD
+
+添加这个Kbuild文件,然后执行下面的命令
+
+make -C /lib/modules/$(uname -r)/build/ M=$PWD
 
 TO DO
 how the kernel get struct genl_info
