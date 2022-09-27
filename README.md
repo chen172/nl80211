@@ -42,10 +42,14 @@ how the kernel get struct genl_info
 # Ubuntu linux header
 /usr/src
 
-# Download your Ubuntu kernel 
-## 1. get your ubuntu kernel release
+# Download your system kernel 
+## 1. get your kernel release
 uname -r
-## 2. find the kernel source
-https://kernel.ubuntu.com/git/ubuntu/ubuntu-focal.git/refs/tags
+
+## 2. find the kernel source 
+* https://kernel.ubuntu.com/git/ubuntu/ubuntu-focal.git/refs/tags (Ubuntu)
+* https://gitlab.com/kalilinux/packages/linux (Kali linux)
+
 ## 3. download specific directory
-https://github.com/chen172/ruby_script/tree/main/download_cgit_directory
+* https://github.com/chen172/ruby_script/tree/main/download_cgit_directory (Ubuntu)
+* diret download from web ui, gitlab support download directory (Kali linux)
