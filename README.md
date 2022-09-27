@@ -27,7 +27,7 @@ Ongoing:
 
 添加这个Kbuild文件,然后执行下面的命令
 
-make -C /lib/modules/$(uname -r)/build/ M=$PWD
+```make -C /lib/modules/$(uname -r)/build/ M=$PWD```
 
 TO DO
 how the kernel get struct genl_info
