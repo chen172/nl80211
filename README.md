@@ -35,7 +35,7 @@ how the kernel get struct genl_info
 <img src="picture/Wifi-Sub-Sys.png"></img>
 
 # Data structure
-| File | Data structure | Description
+| File | Data structure/Function | Description
 | :---- | :---- | :---- |
 | include/net/mac802.11.h | ieee80211_tx_info | |
 | include/linux/skbuff.h | skb_put_data | copy data to skb |
