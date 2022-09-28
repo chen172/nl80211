@@ -35,9 +35,10 @@ how the kernel get struct genl_info
 <img src="picture/Wifi-Sub-Sys.png"></img>
 
 # Data structure
-| File | Data structure |
-| :---- | :---- |
-| include/net/mac802.11.h | ieee80211_tx_info |
+| File | Data structure | Description
+| :---- | :---- | :---- |
+| include/net/mac802.11.h | ieee80211_tx_info | |
+| include/linux/skbuff.h | skb_put_data | copy data to skb |
 
 # Ubuntu linux header
 /usr/src
@@ -53,3 +54,6 @@ uname -r
 ## 3. download specific directory
 * https://github.com/chen172/ruby_script/tree/main/download_cgit_directory (Ubuntu)
 * diret download from web ui, gitlab support download directory (Kali linux)
+
+### ref
+https://elixir.bootlin.com/linux/v4.13/ident/skb_put_data
