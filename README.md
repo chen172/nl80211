@@ -35,10 +35,11 @@ how the kernel get struct genl_info
 <img src="picture/Wifi-Sub-Sys.png"></img>
 
 # Data structure
-| File | Data structure/Function | Description
-| :---- | :---- | :---- |
-| include/net/mac802.11.h | ieee80211_tx_info | |
-| include/linux/skbuff.h | skb_put_data | copy data to skb |
+| File | Data structure/Function | Description | Link
+| :---- | :---- | :---- | :---- |
+| include/net/mac802.11.h | ```struct ieee80211_tx_info``` | | |
+| include/linux/skbuff.h | skb_put_data | copy data to skb | |
+| include/linux/netdevice.h | ```struct net_device_ops``` | This structure defines the management hooks for network devices | [link](https://elixir.bootlin.com/linux/latest/source/include/linux/netdevice.h#L1381) |
 
 # Ubuntu linux header
 /usr/src
