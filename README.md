@@ -40,8 +40,8 @@ how the kernel get struct genl_info
 | include/net/mac802.11.h | ```struct ieee80211_tx_info``` | | |
 | include/linux/skbuff.h | skb_put_data | copy data to skb | |
 | include/linux/netdevice.h | ```struct net_device_ops``` | This structure defines the management hooks for network devices | [link](https://elixir.bootlin.com/linux/latest/source/include/linux/netdevice.h#L1381) |
-| include/linux/skbuff.h | ```struct sk_buff``` |  a metadata structure and does not hold any packet data | [link](https://elixir.bootlin.com/linux/latest/source/include/linux/skbuff.h#L1004) |
-| uapi/linux/if_ether.h | skb->protocol | ```struct sk_buff``` protocol filed | [link](https://elixir.bootlin.com/linux/latest/source/include/uapi/linux/if_ether.h) |
+| include/linux/skbuff.h | ```struct sk_buff``` |  a metadata structure and does not hold any packet data(?) | [link](https://elixir.bootlin.com/linux/latest/source/include/linux/skbuff.h#L1004) |
+| uapi/linux/if_ether.h | skb->protocol | ```struct sk_buff``` protocol filed(only ethernet frame type?) | [link](https://elixir.bootlin.com/linux/latest/source/include/uapi/linux/if_ether.h) |
 | include/uapi/linux/nl80211.h | ```enum nl80211_iftype``` | (virtual) interface types | [link](https://elixir.bootlin.com/linux/latest/source/include/uapi/linux/nl80211.h#L3302) |
 # Ubuntu linux header
 /usr/src
