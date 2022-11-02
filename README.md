@@ -59,5 +59,5 @@ uname -r
 * https://github.com/chen172/ruby_script/tree/main/download_cgit_directory (Ubuntu)
 * diret download from web ui, gitlab support download directory (Kali linux)
 
-### ref
+### reference
 https://elixir.bootlin.com/linux/v4.13/ident/skb_put_data
